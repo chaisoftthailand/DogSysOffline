@@ -1,0 +1,33 @@
+body {
+    background-color: #f0f2f5; /* พื้นหลังเทาอ่อนคล้าย Facebook */
+    color: #050505; /* สีตัวอักษรเข้ม */
+    font-family: 'Sarabun', sans-serif;
+  }
+  
+  .card {
+    background-color: #ffffff; /* กล่องขาว */
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* เงาจางๆ สีดำ */
+    transition: transform 0.2s;
+    color: #050505;
+    border: 1px solid #ddd;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: #050505;
+  }
+  
+  a {
+    color: #1877f2; /* สีฟ้า Facebook */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #155ab6;
+  }
+  

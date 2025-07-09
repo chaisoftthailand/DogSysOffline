@@ -1,0 +1,9 @@
+input {
+  font-family: monospace;
+}
+label {
+  display: block;
+}
+div {
+  margin: 0 0 1rem 0;
+}

@@ -1,0 +1,111 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #fff; FONT-SIZE: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #ccc; SCROLLBAR-SHADOW-COLOR: #000; COLOR: #000; SCROLLBAR-3DLIGHT-COLOR: #fff; SCROLLBAR-ARROW-COLOR: #000; SCROLLBAR-TRACK-COLOR: #fff; FONT-FAMILY: verdana,arial; SCROLLBAR-DARKSHADOW-COLOR: #fff; BACKGROUND-COLOR: #fff
+}
+TD {
+	FONT-SIZE: 11px; COLOR: #666; FONT-FAMILY: verdana,arial
+}
+A {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #CAE774; TEXT-DECORATION: none
+}
+.personbutton {
+	BORDER-RIGHT: #036 0px solid; BORDER-TOP: #036 0px solid; FONT-SIZE: 12px; BORDER-LEFT: #036 0px solid; COLOR: #fff; BORDER-BOTTOM: #036 0px solid; FONT-FAMILY: Verdana, Arial; BACKGROUND-COLOR: #036
+}
+.billbutton {
+	BORDER-RIGHT: #003300 0px solid; BORDER-TOP: #003300 0px solid; FONT-SIZE: 12px; BORDER-LEFT: #003300 0px solid; COLOR: #fff; BORDER-BOTTOM: #003300 0px solid; FONT-FAMILY: Verdana, Arial; BACKGROUND-COLOR: #003300
+}
+.accntbutton {
+	BORDER-RIGHT: #669999 0px solid; BORDER-TOP: #669999 0px solid; FONT-SIZE: 12px; BORDER-LEFT: #669999 0px solid; COLOR: #fff; BORDER-BOTTOM: #669999 0px solid; FONT-FAMILY: Verdana, Arial; BACKGROUND-COLOR: #669999
+}
+.contbutton {
+	BORDER-RIGHT: #336666 0px solid; BORDER-TOP: #336666 0px solid; FONT-SIZE: 12px; BORDER-LEFT: #336666 0px solid; COLOR: #fff; BORDER-BOTTOM: #336666 0px solid; FONT-FAMILY: Verdana, Arial; BACKGROUND-COLOR: #336666
+}
+.dictbutton {
+	BORDER-RIGHT: #993300 0px solid; BORDER-TOP: #993300 0px solid; FONT-SIZE: 12px; BORDER-LEFT: #993300 0px solid; COLOR: #fff; BORDER-BOTTOM: #993300 0px solid; FONT-FAMILY: Verdana, Arial; BACKGROUND-COLOR: #993300
+}
+.statebutton {
+	BORDER-RIGHT: #336666 0px solid; BORDER-TOP: #336666 0px solid; FONT-SIZE: 12px; BORDER-LEFT: #336666 0px solid; COLOR: #fff; BORDER-BOTTOM: #336666 0px solid; FONT-FAMILY: Verdana, Arial; BACKGROUND-COLOR: #993366
+}
+.commbutton {
+	BORDER-RIGHT: #666633 0px solid; BORDER-TOP: #666633 0px solid; FONT-SIZE: 12px; BORDER-LEFT: #666633 0px solid; COLOR: #fff; BORDER-BOTTOM: #666633 0px solid; FONT-FAMILY: Verdana, Arial; BACKGROUND-COLOR: #666633
+}
+.form {
+	BORDER-RIGHT: #666 1px solid; BORDER-TOP: #666 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #666 1px solid; COLOR: #000; BORDER-BOTTOM: #666 1px solid; FONT-FAMILY: Verdana, Arial
+}
+.persdiv {
+	BORDER-RIGHT: #666633 1px solid; BORDER-TOP: #666633 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #666633 1px solid; COLOR: #000; BORDER-BOTTOM: #666633 1px solid; FONT-FAMILY: Verdana, Arial; BORDER-COLLAPSE: collapse
+}
+.normal {
+	FONT-SIZE: 11px; COLOR: #000; FONT-FAMILY: verdana,arial
+}
+.gray {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #333; FONT-FAMILY: verdana,arial
+}
+.gray2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #333; FONT-FAMILY: verdana,arial
+}
+.white {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #fff; FONT-FAMILY: verdana,arial
+}
+.black {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000; FONT-FAMILY: verdana,arial
+}
+.black A {
+	FONT-SIZE: 9px; COLOR: #000; FONT-FAMILY: verdana,arial
+}
+.black A {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000; FONT-FAMILY: verdana,arial
+}
+.black A {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000; FONT-FAMILY: verdana,arial
+}
+.black A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #c00; FONT-FAMILY: verdana,arial
+}
+.border {
+	BORDER-RIGHT: #c8d8e6 1px solid; BORDER-TOP: #c8d8e6 1px solid; BORDER-LEFT: #c8d8e6 1px solid; BORDER-BOTTOM: #c8d8e6 1px solid
+}
+.border2 {
+	BORDER-RIGHT: #999966 1px solid; BORDER-TOP: #999966 1px solid; BORDER-LEFT: #999966 1px solid; BORDER-BOTTOM: #999966 1px solid
+}
+.red {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #fc0000; FONT-FAMILY: verdana,arial
+}
+.red A {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #fc0000; FONT-FAMILY: verdana,arial
+}
+.red A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000099; FONT-FAMILY: verdana,arial
+}
+.blue {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000099; FONT-FAMILY: verdana,arial
+}
+.blue A {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000099; FONT-FAMILY: verdana,arial
+}
+.blue A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #fc0000; FONT-FAMILY: verdana,arial
+}
+.Bar {
+	CURSOR: hand
+}
+.barOver {
+	CURSOR: hand
+}
+.menu {
+	BORDER-RIGHT: buttonhighlight thin outset; BORDER-TOP: buttonhighlight thin outset; LEFT: 20px; VISIBILITY: hidden; BORDER-LEFT: buttonhighlight thin outset; WIDTH: 100px; LINE-HEIGHT: 90%; BORDER-BOTTOM: buttonhighlight thin outset; POSITION: absolute; TOP: 230px; BACKGROUND-COLOR: #dddddd
+}
+.menuItem2 {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 10px; CURSOR: hand; LINE-HEIGHT: 20px; BORDER-BOTTOM: #cccccc 1px solid
+}
+.ItemMouseOver {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 10px; CURSOR: hand; COLOR: highlighttext; LINE-HEIGHT: 20px; BORDER-BOTTOM: white 1px solid; BACKGROUND-COLOR: #999999
+}
+.ItemMouseOut {
+	WIDTH: 100%
+}
+.tabledes {
+	MARGIN-TOP: 0px; PADDING-LEFT: 0px; FONT-SIZE: 8pt; BORDER-LEFT-COLOR: #cccccc; MARGIN-BOTTOM: 0px; BORDER-BOTTOM-COLOR: #cccccc; MARGIN-LEFT: 0px; BORDER-TOP-COLOR: #cccccc; FONT-FAMILY: Arial, Helvetica, sans-serif; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: #ffffff; BORDER-RIGHT-COLOR: #cccccc
+}

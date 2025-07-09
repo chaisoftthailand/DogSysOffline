@@ -1,0 +1,75 @@
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    background-color: #000000; /* พื้นหลังดำ */
+    color: #ffffff; /* ตัวอักษรขาว */
+  }
+a {
+  color:rgba(209, 225, 220, 0.82); /* สีขาว */
+  text-decoration: none; /* ไม่ขีดเส้นใต้ (ถ้าต้องการ) */
+}
+
+a:hover {
+  color:rgb(217, 228, 223); /* สีเมื่อเอาเมาส์ไปชี้ สามารถปรับได้ */
+  text-decoration: underline; /* ขีดเส้นใต้เมื่อ hover ถ้าต้องการ */
+}
+
+  .login-box {
+    width: 360px;
+    margin: 80px auto;
+    padding: 40px;
+    background: #1e1e1e; /* กล่องเทาเข้ม */
+    box-shadow: 0px 0px 15px rgba(255,255,255,0.05);
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .login-box img {
+    width: 100px;
+    margin-bottom: 20px;
+    filter: brightness(0) invert(1); /* ทำโลโก้เป็นโหมดขาวดำ */
+  }
+
+  .login-box h2 {
+    margin-bottom: 25px;
+    color: #ffffff;
+  }
+
+
+.login-box select,
+.login-box input[type="password"],
+.login-box input[type="text"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  background-color: #2c2c2c;
+  color: #ffffff;
+  border: 1px solid #555;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+  .login-box select option {
+    background-color: #2c2c2c;
+    color: #ffffff;
+  }
+
+  .login-box button {
+    background-color: #444444; /* ปุ่มเทาเข้ม */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+  }
+
+  .login-box button:hover {
+    background-color: #666666; /* ปุ่มเทาสว่างเมื่อ hover */
+  }

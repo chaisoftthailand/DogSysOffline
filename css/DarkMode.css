@@ -1,0 +1,72 @@
+/* ตั้งค่าพื้นหลังและตัวอักษรทั้งหมด */
+body {
+  background-color: #000000; /* พื้นหลังดำ */
+  color: #ffffff; /* ตัวอักษรขาว */
+  font-family: sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #000000; /* ดำ */
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #ffffff; /* ตัวอักษรขาว */
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #333333; /* เทาเข้มเมื่อ hover */
+}
+
+.navbar .icon {
+  display: none;
+}
+
+/* Responsive menu */
+@media screen and (max-width: 768px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* ปรับการแสดงผลของการ์ดหรือองค์ประกอบอื่น ๆ */
+.card {
+  background-color: #1a1a1a; /* การ์ดพื้นหลังดำ */
+  color: #ffffff; /* ตัวอักษรขาว */
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.card-title {
+  color: #ffffff; /* ชื่อการ์ดขาว */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-body {
+  background-color: #333333; /* พื้นหลังการ์ดในโหมด hover */
+}

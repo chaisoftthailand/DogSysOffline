@@ -1,0 +1,68 @@
+body {
+    background-color: #000;         /* พื้นหลังดำ */
+    color: #fff;                    /* ตัวอักษรขาว */
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  .card {
+    background-color: #111;         /* กล่องเทาเข้ม */
+    color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(255,255,255,0.05);
+    transition: transform 0.2s;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card-title {
+    font-weight: bold;
+    color: #fff;
+  }
+
+  /* ปุ่มหลัก */
+  .btn {
+    background-color: #000 !important;
+    color: #fff !important;
+    border: 1px solid #555 !important;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .btn:hover {
+    background-color: #333 !important;
+    color: #fff !important;
+  }
+
+  /* ปุ่มโปร่งใสขอบขาว (ถ้ามีใช้) */
+  .btn-outline-dark {
+    background-color: transparent !important;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+  }
+
+  .btn-outline-dark:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
+  /* ลิงก์ */
+  a {
+    color: #ccc;
+  }
+
+  a:hover {
+    color: #fff;
+  }
+
+  /* input, select, textarea */
+  input, select, textarea {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #555;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: #aaa;
+  }
